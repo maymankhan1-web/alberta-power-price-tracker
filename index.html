@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Alberta Power Pool Price Tracker</title>
+<style>body{font-family:system-ui,sans-serif;background:#0b1020;color:#e6e9f2;max-width:900px;margin:auto;padding:20px}
+.big{font-size:3em;font-weight:700;color:#6ee7b7}.card{background:#151b33;border-radius:12px;padding:16px;margin:12px 0}
+canvas{width:100%;height:300px}small,a{color:#9aa4c7}td{padding:2px 10px}</style></head><body>
+<h1>Alberta Power Pool Price</h1>
+<div class="card"><div>Projected pool price</div><div class="big" id="cur">…</div><div id="meta"></div></div>
+<div class="card"><div>Hourly pool price, last 7 days ($/MWh)</div><canvas id="c" width="860" height="300"></canvas><div id="stats"></div></div>
+<p><small>Data: AESO (Alberta Electric System Operator), ets.aeso.ca. Refreshed hourly by GitHub Actions. Not affiliated with AESO.</small></p>
+<script>
+fetch('data/latest.json?'+Date.now()).then(r=>r.json()).then(d=>{
+ const p=d.projected; document.getElementById('cur').textContent=p?'$'+p.price.toFixed(2)+'/MWh':'n/a';
+ document.getElementById('meta').textContent=(p?'Hour ending '+p.hour_ending+', as of '+p.as_of+' (Alberta time). ':'')+'Updated '+d.updated;
+ const h=d.hourly.filter(x=>x.price!=null), v=h.map(x=>x.price); if(!v.length)return;
+ const c=document.getElementById('c'),g=c.getContext('2d'),W=c.width,H=c.height,mx=Math.max(...v),mn=Math.min(0,...v);
+ g.strokeStyle='#334';g.fillStyle='#9aa4c7';g.font='12px sans-serif';
+ for(let i=0;i<=4;i++){const y=H-20-(H-30)*i/4;g.beginPath();g.moveTo(40,y);g.lineTo(W,y);g.stroke();g.fillText((mn+(mx-mn)*i/4).toFixed(0),2,y+4)}
+ g.strokeStyle='#6ee7b7';g.lineWidth=2;g.beginPath();
+ v.forEach((x,i)=>{const X=40+(W-45)*i/Math.max(1,v.length-1),Y=H-20-(H-30)*(x-mn)/((mx-mn)||1);i?g.lineTo(X,Y):g.moveTo(X,Y)});g.stroke();
+ g.fillText(h[0].hour_ending,40,H-4);g.fillText(h[h.length-1].hour_ending,W-110,H-4);
+ const avg=v.reduce((a,b)=>a+b,0)/v.length;
+ document.getElementById('stats').textContent=`Hours: ${v.length} · Avg $${avg.toFixed(2)} · Min $${Math.min(...v).toFixed(2)} · Max $${mx.toFixed(2)}`;
+});
+</script></body></html>
