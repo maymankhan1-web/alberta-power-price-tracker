@@ -1,6 +1,31 @@
 #!/usr/bin/env python3
 """Fetch public Alberta pool price data from AESO (no API key). Stdlib only."""
 import csv, io, json, re, datetime, urllib.request
+import sys, time, socket, urllib.error
+
+RETRY_DELAYS = (5, 15, 30)
+
+
+def _retryable(err):
+    if isinstance(err, urllib.error.HTTPError):
+        return err.code == 429 or err.code >= 500
+    return isinstance(err, (urllib.error.URLError, TimeoutError, socket.timeout, ConnectionError))
+
+
+def urlopen_retry(req, timeout=60):
+    """Open a URL, retrying temporary upstream errors. Exits cleanly if the source stays down."""
+    for attempt in range(len(RETRY_DELAYS) + 1):
+        try:
+            return urllib.request.urlopen(req, timeout=timeout)
+        except Exception as err:
+            if not _retryable(err):
+                raise
+            if attempt == len(RETRY_DELAYS):
+                print(f"Source unavailable after {attempt + 1} attempts ({err}); keeping existing data.")
+                sys.exit(0)
+            print(f"Attempt {attempt + 1} failed ({err}); retrying in {RETRY_DELAYS[attempt]}s")
+            time.sleep(RETRY_DELAYS[attempt])
+
 from zoneinfo import ZoneInfo
 
 SMP = "http://ets.aeso.ca/ets_web/ip/Market/Reports/CSMPriceReportServlet?contentType=csv"
@@ -9,7 +34,7 @@ TZ = ZoneInfo("America/Edmonton")
 
 def get(url):
     req = urllib.request.Request(url, headers={"User-Agent": "alberta-power-price-tracker"})
-    with urllib.request.urlopen(req, timeout=60) as r:
+    with urlopen_retry(req, timeout=60) as r:
         return r.read().decode("utf-8", "replace")
 
 def rows(text, header_start):
