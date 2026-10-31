@@ -21,4 +21,5 @@ fetch('data/latest.json?'+Date.now()).then(r=>r.json()).then(d=>{
  const avg=v.reduce((a,b)=>a+b,0)/v.length;
  document.getElementById('stats').textContent=`Hours: ${v.length} · Avg $${avg.toFixed(2)} · Min $${Math.min(...v).toFixed(2)} · Max $${mx.toFixed(2)}`;
 });
-</script></body></html>
+</script><p style="text-align:center;margin:24px 0"><a href="https://github.com/sponsors/maymankhan1-web" style="padding:10px 18px;border:1px solid #db61a2;border-radius:6px;color:#db61a2;text-decoration:none">&#9829; Sponsor this tracker</a></p>
+</body></html>
