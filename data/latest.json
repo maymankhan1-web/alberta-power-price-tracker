@@ -1,12 +1,60 @@
 {
- "updated": "2026-11-03T08:57:08-06:00",
+ "updated": "2026-11-03T09:45:13-06:00",
  "source": "AESO (Alberta Electric System Operator), ets.aeso.ca",
  "projected": {
-  "hour_ending": 9,
-  "price": 17.69,
-  "as_of": "08:57"
+  "hour_ending": 10,
+  "price": 15.24,
+  "as_of": "09:45"
  },
  "smp": [
+  {
+   "hour_ending": "11/03/2026 10",
+   "time": "09:38",
+   "price": 14.58,
+   "volume_mw": 60.0
+  },
+  {
+   "hour_ending": "11/03/2026 10",
+   "time": "09:33",
+   "price": 14.65,
+   "volume_mw": 100.0
+  },
+  {
+   "hour_ending": "11/03/2026 10",
+   "time": "09:24",
+   "price": 14.66,
+   "volume_mw": 100.0
+  },
+  {
+   "hour_ending": "11/03/2026 10",
+   "time": "09:21",
+   "price": 15.79,
+   "volume_mw": 50.0
+  },
+  {
+   "hour_ending": "11/03/2026 10",
+   "time": "09:19",
+   "price": 15.78,
+   "volume_mw": 50.0
+  },
+  {
+   "hour_ending": "11/03/2026 10",
+   "time": "09:05",
+   "price": 16.13,
+   "volume_mw": 60.0
+  },
+  {
+   "hour_ending": "11/03/2026 10",
+   "time": "09:04",
+   "price": 16.33,
+   "volume_mw": 50.0
+  },
+  {
+   "hour_ending": "11/03/2026 10",
+   "time": "09:00",
+   "price": 16.89,
+   "volume_mw": 31.0
+  },
   {
    "hour_ending": "11/03/2026 09",
    "time": "08:52",
@@ -149,42 +197,6 @@
    "hour_ending": "11/03/2026 07",
    "time": "06:00",
    "price": 9.74,
-   "volume_mw": 50.0
-  },
-  {
-   "hour_ending": "11/03/2026 06",
-   "time": "05:50",
-   "price": 9.74,
-   "volume_mw": 50.0
-  },
-  {
-   "hour_ending": "11/03/2026 06",
-   "time": "05:47",
-   "price": 8.52,
-   "volume_mw": 50.0
-  },
-  {
-   "hour_ending": "11/03/2026 06",
-   "time": "05:44",
-   "price": 9.22,
-   "volume_mw": 50.0
-  },
-  {
-   "hour_ending": "11/03/2026 06",
-   "time": "05:11",
-   "price": 0.04,
-   "volume_mw": 50.0
-  },
-  {
-   "hour_ending": "11/03/2026 06",
-   "time": "05:04",
-   "price": 0.02,
-   "volume_mw": 100.0
-  },
-  {
-   "hour_ending": "11/03/2026 06",
-   "time": "05:00",
-   "price": 0.03,
    "volume_mw": 50.0
   }
  ],
