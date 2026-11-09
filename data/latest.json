@@ -1,12 +1,78 @@
 {
- "updated": "2026-11-09T08:15:13-06:00",
+ "updated": "2026-11-09T09:55:42-06:00",
  "source": "AESO (Alberta Electric System Operator), ets.aeso.ca",
  "projected": {
-  "hour_ending": 9,
-  "price": 14.91,
-  "as_of": "08:14"
+  "hour_ending": 10,
+  "price": 26.5,
+  "as_of": "09:55"
  },
  "smp": [
+  {
+   "hour_ending": "11/09/2026 10",
+   "time": "09:20",
+   "price": 26.77,
+   "volume_mw": 100.0
+  },
+  {
+   "hour_ending": "11/09/2026 10",
+   "time": "09:12",
+   "price": 26.01,
+   "volume_mw": 67.0
+  },
+  {
+   "hour_ending": "11/09/2026 10",
+   "time": "09:09",
+   "price": 26.77,
+   "volume_mw": 100.0
+  },
+  {
+   "hour_ending": "11/09/2026 10",
+   "time": "09:00",
+   "price": 25.63,
+   "volume_mw": 73.0
+  },
+  {
+   "hour_ending": "11/09/2026 09",
+   "time": "08:55",
+   "price": 22.58,
+   "volume_mw": 73.0
+  },
+  {
+   "hour_ending": "11/09/2026 09",
+   "time": "08:51",
+   "price": 20.56,
+   "volume_mw": 50.0
+  },
+  {
+   "hour_ending": "11/09/2026 09",
+   "time": "08:43",
+   "price": 20.0,
+   "volume_mw": 12.0
+  },
+  {
+   "hour_ending": "11/09/2026 09",
+   "time": "08:36",
+   "price": 19.12,
+   "volume_mw": 50.0
+  },
+  {
+   "hour_ending": "11/09/2026 09",
+   "time": "08:31",
+   "price": 18.76,
+   "volume_mw": 28.0
+  },
+  {
+   "hour_ending": "11/09/2026 09",
+   "time": "08:19",
+   "price": 15.84,
+   "volume_mw": 60.0
+  },
+  {
+   "hour_ending": "11/09/2026 09",
+   "time": "08:17",
+   "price": 15.57,
+   "volume_mw": 50.0
+  },
   {
    "hour_ending": "11/09/2026 09",
    "time": "08:13",
@@ -156,30 +222,6 @@
    "time": "06:00",
    "price": 0.0,
    "volume_mw": 23.0
-  },
-  {
-   "hour_ending": "11/09/2026 06",
-   "time": "05:32",
-   "price": 0.0,
-   "volume_mw": 46.0
-  },
-  {
-   "hour_ending": "11/09/2026 06",
-   "time": "05:15",
-   "price": 0.0,
-   "volume_mw": 24.0
-  },
-  {
-   "hour_ending": "11/09/2026 06",
-   "time": "05:13",
-   "price": 0.0,
-   "volume_mw": 4.0
-  },
-  {
-   "hour_ending": "11/09/2026 06",
-   "time": "05:00",
-   "price": 0.0,
-   "volume_mw": 2.0
   }
  ],
  "hourly": [
