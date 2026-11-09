@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-09T03:02:55-06:00",
+ "updated": "2026-11-09T03:56:57-06:00",
  "source": "AESO (Alberta Electric System Operator), ets.aeso.ca",
  "projected": {
   "hour_ending": 4,
   "price": 0.0,
-  "as_of": "03:02"
+  "as_of": "03:56"
  },
  "smp": [
   {
