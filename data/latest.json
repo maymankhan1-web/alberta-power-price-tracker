@@ -1,12 +1,72 @@
 {
- "updated": "2026-11-12T02:20:51-06:00",
+ "updated": "2026-11-12T03:54:43-06:00",
  "source": "AESO (Alberta Electric System Operator), ets.aeso.ca",
  "projected": {
-  "hour_ending": 3,
+  "hour_ending": 4,
   "price": 0.0,
-  "as_of": "02:20"
+  "as_of": "03:54"
  },
  "smp": [
+  {
+   "hour_ending": "11/12/2026 04",
+   "time": "03:50",
+   "price": 0.0,
+   "volume_mw": 14.0
+  },
+  {
+   "hour_ending": "11/12/2026 04",
+   "time": "03:47",
+   "price": 0.0,
+   "volume_mw": 16.0
+  },
+  {
+   "hour_ending": "11/12/2026 04",
+   "time": "03:32",
+   "price": 0.0,
+   "volume_mw": 18.0
+  },
+  {
+   "hour_ending": "11/12/2026 04",
+   "time": "03:22",
+   "price": 0.0,
+   "volume_mw": 18.0
+  },
+  {
+   "hour_ending": "11/12/2026 04",
+   "time": "03:04",
+   "price": 0.0,
+   "volume_mw": 16.0
+  },
+  {
+   "hour_ending": "11/12/2026 04",
+   "time": "03:00",
+   "price": 0.0,
+   "volume_mw": 16.0
+  },
+  {
+   "hour_ending": "11/12/2026 03",
+   "time": "02:47",
+   "price": 0.0,
+   "volume_mw": 16.0
+  },
+  {
+   "hour_ending": "11/12/2026 03",
+   "time": "02:45",
+   "price": 0.0,
+   "volume_mw": 16.0
+  },
+  {
+   "hour_ending": "11/12/2026 03",
+   "time": "02:36",
+   "price": 0.0,
+   "volume_mw": 12.0
+  },
+  {
+   "hour_ending": "11/12/2026 03",
+   "time": "02:32",
+   "price": 0.0,
+   "volume_mw": 6.0
+  },
   {
    "hour_ending": "11/12/2026 03",
    "time": "02:17",
@@ -60,36 +120,6 @@
    "time": "24:00",
    "price": 0.01,
    "volume_mw": 100.0
-  },
-  {
-   "hour_ending": "11/11/2026 24",
-   "time": "23:39",
-   "price": 0.01,
-   "volume_mw": 100.0
-  },
-  {
-   "hour_ending": "11/11/2026 24",
-   "time": "23:32",
-   "price": 0.02,
-   "volume_mw": 85.0
-  },
-  {
-   "hour_ending": "11/11/2026 24",
-   "time": "23:12",
-   "price": 5.17,
-   "volume_mw": 50.0
-  },
-  {
-   "hour_ending": "11/11/2026 24",
-   "time": "23:03",
-   "price": 5.18,
-   "volume_mw": 50.0
-  },
-  {
-   "hour_ending": "11/11/2026 24",
-   "time": "23:00",
-   "price": 6.47,
-   "volume_mw": 50.0
   }
  ],
  "hourly": [
