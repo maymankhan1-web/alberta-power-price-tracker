@@ -1,12 +1,24 @@
 {
- "updated": "2026-11-17T12:55:21-06:00",
+ "updated": "2026-11-17T13:59:11-06:00",
  "source": "AESO (Alberta Electric System Operator), ets.aeso.ca",
  "projected": {
-  "hour_ending": 13,
-  "price": 28.8,
-  "as_of": "12:55"
+  "hour_ending": 14,
+  "price": 27.42,
+  "as_of": "13:59"
  },
  "smp": [
+  {
+   "hour_ending": "11/17/2026 14",
+   "time": "13:32",
+   "price": 25.88,
+   "volume_mw": 70.0
+  },
+  {
+   "hour_ending": "11/17/2026 14",
+   "time": "13:00",
+   "price": 28.76,
+   "volume_mw": 75.0
+  },
   {
    "hour_ending": "11/17/2026 13",
    "time": "12:32",
@@ -59,42 +71,6 @@
    "hour_ending": "11/17/2026 11",
    "time": "10:00",
    "price": 25.88,
-   "volume_mw": 100.0
-  },
-  {
-   "hour_ending": "11/17/2026 10",
-   "time": "09:47",
-   "price": 25.88,
-   "volume_mw": 100.0
-  },
-  {
-   "hour_ending": "11/17/2026 10",
-   "time": "09:23",
-   "price": 25.75,
-   "volume_mw": 24.0
-  },
-  {
-   "hour_ending": "11/17/2026 10",
-   "time": "09:21",
-   "price": 28.02,
-   "volume_mw": 75.0
-  },
-  {
-   "hour_ending": "11/17/2026 10",
-   "time": "09:18",
-   "price": 28.63,
-   "volume_mw": 100.0
-  },
-  {
-   "hour_ending": "11/17/2026 10",
-   "time": "09:04",
-   "price": 29.24,
-   "volume_mw": 85.0
-  },
-  {
-   "hour_ending": "11/17/2026 10",
-   "time": "09:00",
-   "price": 29.66,
    "volume_mw": 100.0
   }
  ],
