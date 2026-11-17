@@ -1,12 +1,48 @@
 {
- "updated": "2026-11-16T20:08:05-06:00",
+ "updated": "2026-11-16T21:50:33-06:00",
  "source": "AESO (Alberta Electric System Operator), ets.aeso.ca",
  "projected": {
-  "hour_ending": 21,
-  "price": 33.26,
-  "as_of": "20:07"
+  "hour_ending": 22,
+  "price": 34.22,
+  "as_of": "21:50"
  },
  "smp": [
+  {
+   "hour_ending": "11/16/2026 22",
+   "time": "21:07",
+   "price": 34.27,
+   "volume_mw": 50.0
+  },
+  {
+   "hour_ending": "11/16/2026 22",
+   "time": "21:06",
+   "price": 34.05,
+   "volume_mw": 100.0
+  },
+  {
+   "hour_ending": "11/16/2026 22",
+   "time": "21:00",
+   "price": 33.81,
+   "volume_mw": 60.0
+  },
+  {
+   "hour_ending": "11/16/2026 21",
+   "time": "20:55",
+   "price": 33.94,
+   "volume_mw": 50.0
+  },
+  {
+   "hour_ending": "11/16/2026 21",
+   "time": "20:53",
+   "price": 33.72,
+   "volume_mw": 100.0
+  },
+  {
+   "hour_ending": "11/16/2026 21",
+   "time": "20:28",
+   "price": 33.48,
+   "volume_mw": 60.0
+  },
   {
    "hour_ending": "11/16/2026 21",
    "time": "20:00",
@@ -66,60 +102,6 @@
    "time": "18:00",
    "price": 36.96,
    "volume_mw": 20.0
-  },
-  {
-   "hour_ending": "11/16/2026 18",
-   "time": "17:43",
-   "price": 35.45,
-   "volume_mw": 25.0
-  },
-  {
-   "hour_ending": "11/16/2026 18",
-   "time": "17:42",
-   "price": 34.99,
-   "volume_mw": 75.0
-  },
-  {
-   "hour_ending": "11/16/2026 18",
-   "time": "17:24",
-   "price": 34.77,
-   "volume_mw": 85.0
-  },
-  {
-   "hour_ending": "11/16/2026 18",
-   "time": "17:15",
-   "price": 34.53,
-   "volume_mw": 50.0
-  },
-  {
-   "hour_ending": "11/16/2026 18",
-   "time": "17:09",
-   "price": 34.99,
-   "volume_mw": 75.0
-  },
-  {
-   "hour_ending": "11/16/2026 18",
-   "time": "17:08",
-   "price": 35.45,
-   "volume_mw": 25.0
-  },
-  {
-   "hour_ending": "11/16/2026 18",
-   "time": "17:04",
-   "price": 60.0,
-   "volume_mw": 10.0
-  },
-  {
-   "hour_ending": "11/16/2026 18",
-   "time": "17:02",
-   "price": 135.45,
-   "volume_mw": 95.0
-  },
-  {
-   "hour_ending": "11/16/2026 18",
-   "time": "17:00",
-   "price": 402.13,
-   "volume_mw": 35.0
   }
  ],
  "hourly": [
