@@ -1,12 +1,30 @@
 {
- "updated": "2026-11-18T16:49:01-06:00",
+ "updated": "2026-11-18T17:47:07-06:00",
  "source": "AESO (Alberta Electric System Operator), ets.aeso.ca",
  "projected": {
-  "hour_ending": 17,
-  "price": 24.67,
-  "as_of": "16:49"
+  "hour_ending": 18,
+  "price": 28.73,
+  "as_of": "17:46"
  },
  "smp": [
+  {
+   "hour_ending": "11/18/2026 18",
+   "time": "17:41",
+   "price": 29.24,
+   "volume_mw": 100.0
+  },
+  {
+   "hour_ending": "11/18/2026 18",
+   "time": "17:35",
+   "price": 29.02,
+   "volume_mw": 15.0
+  },
+  {
+   "hour_ending": "11/18/2026 18",
+   "time": "17:00",
+   "price": 28.41,
+   "volume_mw": 75.0
+  },
   {
    "hour_ending": "11/18/2026 17",
    "time": "16:47",
@@ -107,30 +125,6 @@
    "hour_ending": "11/18/2026 15",
    "time": "14:00",
    "price": 15.79,
-   "volume_mw": 50.0
-  },
-  {
-   "hour_ending": "11/18/2026 14",
-   "time": "13:31",
-   "price": 15.87,
-   "volume_mw": 60.0
-  },
-  {
-   "hour_ending": "11/18/2026 14",
-   "time": "13:26",
-   "price": 16.11,
-   "volume_mw": 50.0
-  },
-  {
-   "hour_ending": "11/18/2026 14",
-   "time": "13:04",
-   "price": 15.87,
-   "volume_mw": 60.0
-  },
-  {
-   "hour_ending": "11/18/2026 14",
-   "time": "13:00",
-   "price": 16.12,
    "volume_mw": 50.0
   }
  ],
@@ -1096,33 +1090,51 @@
    "ail_mw": 11271.0
   },
   {
+   "hour_ending": "11/17/2026 17",
+   "price": 20.75,
+   "avg30": 38.09,
+   "ail_mw": 11391.0
+  },
+  {
+   "hour_ending": "11/17/2026 18",
+   "price": 23.97,
+   "avg30": 38.05,
+   "ail_mw": 11522.0
+  },
+  {
+   "hour_ending": "11/17/2026 19",
+   "price": 21.53,
+   "avg30": 38.0,
+   "ail_mw": 11563.0
+  },
+  {
    "hour_ending": "11/17/2026 20",
    "price": 20.06,
-   "avg30": null,
+   "avg30": 37.98,
    "ail_mw": 11501.0
   },
   {
    "hour_ending": "11/17/2026 21",
    "price": 21.54,
-   "avg30": null,
+   "avg30": 37.99,
    "ail_mw": 11463.0
   },
   {
    "hour_ending": "11/17/2026 22",
    "price": 19.08,
-   "avg30": null,
+   "avg30": 38.0,
    "ail_mw": 11260.0
   },
   {
    "hour_ending": "11/17/2026 23",
    "price": 16.14,
-   "avg30": null,
+   "avg30": 38.0,
    "ail_mw": 10997.0
   },
   {
    "hour_ending": "11/17/2026 24",
    "price": 15.63,
-   "avg30": null,
+   "avg30": 38.0,
    "ail_mw": 10718.0
   }
  ]
