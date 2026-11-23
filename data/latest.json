@@ -1,12 +1,90 @@
 {
- "updated": "2026-11-22T20:13:14-06:00",
+ "updated": "2026-11-22T21:58:37-06:00",
  "source": "AESO (Alberta Electric System Operator), ets.aeso.ca",
  "projected": {
-  "hour_ending": 21,
-  "price": 30.18,
-  "as_of": "20:13"
+  "hour_ending": 22,
+  "price": 24.34,
+  "as_of": "21:58"
  },
  "smp": [
+  {
+   "hour_ending": "11/22/2026 22",
+   "time": "21:51",
+   "price": 18.8,
+   "volume_mw": 41.0
+  },
+  {
+   "hour_ending": "11/22/2026 22",
+   "time": "21:50",
+   "price": 23.91,
+   "volume_mw": 45.0
+  },
+  {
+   "hour_ending": "11/22/2026 22",
+   "time": "21:17",
+   "price": 24.71,
+   "volume_mw": 100.0
+  },
+  {
+   "hour_ending": "11/22/2026 22",
+   "time": "21:13",
+   "price": 24.93,
+   "volume_mw": 90.0
+  },
+  {
+   "hour_ending": "11/22/2026 22",
+   "time": "21:09",
+   "price": 25.93,
+   "volume_mw": 70.0
+  },
+  {
+   "hour_ending": "11/22/2026 22",
+   "time": "21:04",
+   "price": 26.42,
+   "volume_mw": 70.0
+  },
+  {
+   "hour_ending": "11/22/2026 22",
+   "time": "21:00",
+   "price": 29.02,
+   "volume_mw": 70.0
+  },
+  {
+   "hour_ending": "11/22/2026 21",
+   "time": "20:53",
+   "price": 25.0,
+   "volume_mw": 5.0
+  },
+  {
+   "hour_ending": "11/22/2026 21",
+   "time": "20:47",
+   "price": 23.56,
+   "volume_mw": 45.0
+  },
+  {
+   "hour_ending": "11/22/2026 21",
+   "time": "20:38",
+   "price": 24.46,
+   "volume_mw": 50.0
+  },
+  {
+   "hour_ending": "11/22/2026 21",
+   "time": "20:32",
+   "price": 25.0,
+   "volume_mw": 5.0
+  },
+  {
+   "hour_ending": "11/22/2026 21",
+   "time": "20:19",
+   "price": 25.93,
+   "volume_mw": 70.0
+  },
+  {
+   "hour_ending": "11/22/2026 21",
+   "time": "20:16",
+   "price": 30.25,
+   "volume_mw": 77.0
+  },
   {
    "hour_ending": "11/22/2026 21",
    "time": "20:03",
@@ -90,24 +168,6 @@
    "time": "18:00",
    "price": 26.42,
    "volume_mw": 70.0
-  },
-  {
-   "hour_ending": "11/22/2026 18",
-   "time": "17:22",
-   "price": 26.42,
-   "volume_mw": 69.0
-  },
-  {
-   "hour_ending": "11/22/2026 18",
-   "time": "17:17",
-   "price": 29.42,
-   "volume_mw": 70.0
-  },
-  {
-   "hour_ending": "11/22/2026 18",
-   "time": "17:00",
-   "price": 30.0,
-   "volume_mw": 5.0
   }
  ],
  "hourly": [
