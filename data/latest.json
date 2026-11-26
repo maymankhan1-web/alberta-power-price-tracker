@@ -1,106 +1,64 @@
 {
- "updated": "2026-11-26T06:06:22-06:00",
+ "updated": "2026-11-26T15:24:37-06:00",
  "source": "AESO (Alberta Electric System Operator), ets.aeso.ca",
  "projected": {
-  "hour_ending": 7,
-  "price": 15.73,
-  "as_of": "06:06"
+  "hour_ending": 16,
+  "price": 13.82,
+  "as_of": "15:24"
  },
  "smp": [
   {
-   "hour_ending": "11/26/2026 07",
-   "time": "06:04",
-   "price": 15.73,
-   "volume_mw": 31.0
+   "hour_ending": "11/26/2026 16",
+   "time": "15:00",
+   "price": 13.82,
+   "volume_mw": 75.0
   },
   {
-   "hour_ending": "11/26/2026 07",
-   "time": "06:00",
-   "price": 15.74,
-   "volume_mw": 31.0
+   "hour_ending": "11/26/2026 15",
+   "time": "14:49",
+   "price": 13.82,
+   "volume_mw": 75.0
   },
   {
-   "hour_ending": "11/26/2026 06",
-   "time": "05:46",
-   "price": 15.74,
-   "volume_mw": 31.0
+   "hour_ending": "11/26/2026 15",
+   "time": "14:47",
+   "price": 14.07,
+   "volume_mw": 75.0
   },
   {
-   "hour_ending": "11/26/2026 06",
-   "time": "05:32",
-   "price": 16.01,
+   "hour_ending": "11/26/2026 15",
+   "time": "14:31",
+   "price": 14.13,
    "volume_mw": 60.0
   },
   {
-   "hour_ending": "11/26/2026 06",
-   "time": "05:20",
-   "price": 15.51,
-   "volume_mw": 60.0
-  },
-  {
-   "hour_ending": "11/26/2026 06",
-   "time": "05:17",
-   "price": 15.22,
-   "volume_mw": 50.0
-  },
-  {
-   "hour_ending": "11/26/2026 06",
-   "time": "05:15",
-   "price": 15.51,
-   "volume_mw": 60.0
-  },
-  {
-   "hour_ending": "11/26/2026 06",
-   "time": "05:00",
-   "price": 14.63,
-   "volume_mw": 60.0
-  },
-  {
-   "hour_ending": "11/26/2026 05",
-   "time": "04:43",
+   "hour_ending": "11/26/2026 15",
+   "time": "14:15",
    "price": 14.52,
    "volume_mw": 50.0
   },
   {
-   "hour_ending": "11/26/2026 05",
-   "time": "04:38",
-   "price": 14.07,
-   "volume_mw": 75.0
-  },
-  {
-   "hour_ending": "11/26/2026 05",
-   "time": "04:17",
-   "price": 13.82,
-   "volume_mw": 75.0
-  },
-  {
-   "hour_ending": "11/26/2026 05",
-   "time": "04:00",
-   "price": 14.07,
-   "volume_mw": 75.0
-  },
-  {
-   "hour_ending": "11/26/2026 04",
-   "time": "03:49",
-   "price": 14.07,
-   "volume_mw": 75.0
-  },
-  {
-   "hour_ending": "11/26/2026 04",
-   "time": "03:48",
-   "price": 13.82,
-   "volume_mw": 75.0
-  },
-  {
-   "hour_ending": "11/26/2026 04",
-   "time": "03:04",
-   "price": 11.23,
+   "hour_ending": "11/26/2026 15",
+   "time": "14:00",
+   "price": 14.53,
    "volume_mw": 50.0
   },
   {
-   "hour_ending": "11/26/2026 04",
-   "time": "03:00",
-   "price": 9.19,
+   "hour_ending": "11/26/2026 14",
+   "time": "13:00",
+   "price": 14.53,
+   "volume_mw": 50.0
+  },
+  {
+   "hour_ending": "11/26/2026 13",
+   "time": "12:05",
+   "price": 14.63,
+   "volume_mw": 60.0
+  },
+  {
+   "hour_ending": "11/26/2026 13",
+   "time": "12:00",
+   "price": 15.22,
    "volume_mw": 50.0
   }
  ],
