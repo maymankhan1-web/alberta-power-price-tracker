@@ -1,131 +1,107 @@
 {
- "updated": "2026-11-25T13:50:45-06:00",
+ "updated": "2026-11-25T20:43:17-06:00",
  "source": "AESO (Alberta Electric System Operator), ets.aeso.ca",
  "projected": {
-  "hour_ending": 14,
-  "price": 12.93,
-  "as_of": "13:50"
+  "hour_ending": 21,
+  "price": 15.95,
+  "as_of": "20:42"
  },
  "smp": [
   {
-   "hour_ending": "11/25/2026 14",
-   "time": "13:46",
-   "price": 12.05,
-   "volume_mw": 75.0
-  },
-  {
-   "hour_ending": "11/25/2026 14",
-   "time": "13:38",
-   "price": 12.55,
-   "volume_mw": 75.0
-  },
-  {
-   "hour_ending": "11/25/2026 14",
-   "time": "13:33",
-   "price": 13.1,
+   "hour_ending": "11/25/2026 21",
+   "time": "20:19",
+   "price": 15.91,
    "volume_mw": 50.0
   },
   {
-   "hour_ending": "11/25/2026 14",
-   "time": "13:32",
-   "price": 13.85,
-   "volume_mw": 60.0
-  },
-  {
-   "hour_ending": "11/25/2026 14",
-   "time": "13:23",
-   "price": 13.77,
-   "volume_mw": 35.0
-  },
-  {
-   "hour_ending": "11/25/2026 14",
-   "time": "13:03",
-   "price": 13.1,
+   "hour_ending": "11/25/2026 21",
+   "time": "20:11",
+   "price": 16.24,
    "volume_mw": 50.0
   },
   {
-   "hour_ending": "11/25/2026 14",
-   "time": "13:00",
-   "price": 13.85,
-   "volume_mw": 60.0
-  },
-  {
-   "hour_ending": "11/25/2026 13",
-   "time": "12:22",
-   "price": 13.85,
-   "volume_mw": 60.0
-  },
-  {
-   "hour_ending": "11/25/2026 13",
-   "time": "12:09",
-   "price": 12.55,
-   "volume_mw": 75.0
-  },
-  {
-   "hour_ending": "11/25/2026 13",
-   "time": "12:07",
-   "price": 12.05,
-   "volume_mw": 75.0
-  },
-  {
-   "hour_ending": "11/25/2026 13",
-   "time": "12:00",
-   "price": 8.76,
-   "volume_mw": 50.0
-  },
-  {
-   "hour_ending": "11/25/2026 12",
-   "time": "11:55",
-   "price": 11.23,
-   "volume_mw": 50.0
-  },
-  {
-   "hour_ending": "11/25/2026 12",
-   "time": "11:00",
-   "price": 12.05,
-   "volume_mw": 75.0
-  },
-  {
-   "hour_ending": "11/25/2026 11",
-   "time": "10:48",
-   "price": 12.05,
-   "volume_mw": 75.0
-  },
-  {
-   "hour_ending": "11/25/2026 11",
-   "time": "10:38",
-   "price": 13.1,
-   "volume_mw": 50.0
-  },
-  {
-   "hour_ending": "11/25/2026 11",
-   "time": "10:31",
-   "price": 14.35,
-   "volume_mw": 60.0
-  },
-  {
-   "hour_ending": "11/25/2026 11",
-   "time": "10:18",
-   "price": 14.77,
-   "volume_mw": 7.0
-  },
-  {
-   "hour_ending": "11/25/2026 11",
-   "time": "10:15",
-   "price": 15.23,
-   "volume_mw": 60.0
-  },
-  {
-   "hour_ending": "11/25/2026 11",
-   "time": "10:04",
+   "hour_ending": "11/25/2026 21",
+   "time": "20:09",
    "price": 15.73,
    "volume_mw": 60.0
   },
   {
-   "hour_ending": "11/25/2026 11",
-   "time": "10:00",
-   "price": 15.9,
+   "hour_ending": "11/25/2026 21",
+   "time": "20:00",
+   "price": 15.91,
    "volume_mw": 50.0
+  },
+  {
+   "hour_ending": "11/25/2026 20",
+   "time": "19:15",
+   "price": 15.91,
+   "volume_mw": 50.0
+  },
+  {
+   "hour_ending": "11/25/2026 20",
+   "time": "19:00",
+   "price": 15.73,
+   "volume_mw": 60.0
+  },
+  {
+   "hour_ending": "11/25/2026 19",
+   "time": "18:56",
+   "price": 15.73,
+   "volume_mw": 60.0
+  },
+  {
+   "hour_ending": "11/25/2026 19",
+   "time": "18:32",
+   "price": 16.23,
+   "volume_mw": 50.0
+  },
+  {
+   "hour_ending": "11/25/2026 19",
+   "time": "18:10",
+   "price": 16.24,
+   "volume_mw": 50.0
+  },
+  {
+   "hour_ending": "11/25/2026 19",
+   "time": "18:07",
+   "price": 16.46,
+   "volume_mw": 31.0
+  },
+  {
+   "hour_ending": "11/25/2026 19",
+   "time": "18:00",
+   "price": 16.74,
+   "volume_mw": 50.0
+  },
+  {
+   "hour_ending": "11/25/2026 18",
+   "time": "17:49",
+   "price": 17.11,
+   "volume_mw": 55.0
+  },
+  {
+   "hour_ending": "11/25/2026 18",
+   "time": "17:47",
+   "price": 18.02,
+   "volume_mw": 25.0
+  },
+  {
+   "hour_ending": "11/25/2026 18",
+   "time": "17:32",
+   "price": 18.18,
+   "volume_mw": 40.0
+  },
+  {
+   "hour_ending": "11/25/2026 18",
+   "time": "17:29",
+   "price": 18.02,
+   "volume_mw": 25.0
+  },
+  {
+   "hour_ending": "11/25/2026 18",
+   "time": "17:00",
+   "price": 16.61,
+   "volume_mw": 55.0
   }
  ],
  "hourly": [
