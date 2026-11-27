@@ -1,434 +1,158 @@
 {
- "updated": "2026-11-26T21:59:50-06:00",
+ "updated": "2026-11-27T07:38:32-06:00",
  "source": "AESO (Alberta Electric System Operator), ets.aeso.ca",
  "projected": {
-  "hour_ending": 22,
-  "price": 12.34,
-  "as_of": "21:59"
+  "hour_ending": 8,
+  "price": 16.39,
+  "as_of": "07:38"
  },
  "smp": [
   {
-   "hour_ending": "11/26/2026 22",
-   "time": "21:57",
-   "price": 0.04,
-   "volume_mw": 50.0
-  },
-  {
-   "hour_ending": "11/26/2026 22",
-   "time": "21:54",
-   "price": 7.72,
+   "hour_ending": "11/27/2026 08",
+   "time": "07:24",
+   "price": 16.57,
    "volume_mw": 60.0
   },
   {
-   "hour_ending": "11/26/2026 22",
-   "time": "21:51",
-   "price": 9.19,
+   "hour_ending": "11/27/2026 08",
+   "time": "07:16",
+   "price": 16.49,
    "volume_mw": 50.0
   },
   {
-   "hour_ending": "11/26/2026 22",
-   "time": "21:50",
-   "price": 11.23,
+   "hour_ending": "11/27/2026 08",
+   "time": "07:08",
+   "price": 15.95,
+   "volume_mw": 31.0
+  },
+  {
+   "hour_ending": "11/27/2026 08",
+   "time": "07:00",
+   "price": 15.94,
+   "volume_mw": 31.0
+  },
+  {
+   "hour_ending": "11/27/2026 07",
+   "time": "06:59",
+   "price": 15.44,
    "volume_mw": 50.0
   },
   {
-   "hour_ending": "11/26/2026 22",
-   "time": "21:47",
-   "price": 13.1,
+   "hour_ending": "11/27/2026 07",
+   "time": "06:47",
+   "price": 15.45,
    "volume_mw": 50.0
   },
   {
-   "hour_ending": "11/26/2026 22",
-   "time": "21:40",
-   "price": 11.23,
-   "volume_mw": 50.0
-  },
-  {
-   "hour_ending": "11/26/2026 22",
-   "time": "21:37",
-   "price": 13.77,
-   "volume_mw": 40.0
-  },
-  {
-   "hour_ending": "11/26/2026 22",
-   "time": "21:30",
-   "price": 13.82,
-   "volume_mw": 75.0
-  },
-  {
-   "hour_ending": "11/26/2026 22",
-   "time": "21:25",
-   "price": 13.94,
-   "volume_mw": 16.0
-  },
-  {
-   "hour_ending": "11/26/2026 22",
-   "time": "21:22",
-   "price": 14.07,
-   "volume_mw": 75.0
-  },
-  {
-   "hour_ending": "11/26/2026 22",
-   "time": "21:04",
-   "price": 14.13,
+   "hour_ending": "11/27/2026 07",
+   "time": "06:43",
+   "price": 15.17,
    "volume_mw": 60.0
   },
   {
-   "hour_ending": "11/26/2026 22",
-   "time": "21:00",
-   "price": 14.07,
-   "volume_mw": 75.0
+   "hour_ending": "11/27/2026 07",
+   "time": "06:37",
+   "price": 15.14,
+   "volume_mw": 10.0
   },
   {
-   "hour_ending": "11/26/2026 21",
-   "time": "20:59",
-   "price": 14.07,
-   "volume_mw": 75.0
-  },
-  {
-   "hour_ending": "11/26/2026 21",
-   "time": "20:54",
-   "price": 13.82,
-   "volume_mw": 75.0
-  },
-  {
-   "hour_ending": "11/26/2026 21",
-   "time": "20:46",
-   "price": 13.1,
-   "volume_mw": 50.0
-  },
-  {
-   "hour_ending": "11/26/2026 21",
-   "time": "20:41",
-   "price": 13.82,
-   "volume_mw": 75.0
-  },
-  {
-   "hour_ending": "11/26/2026 21",
-   "time": "20:37",
-   "price": 14.07,
-   "volume_mw": 75.0
-  },
-  {
-   "hour_ending": "11/26/2026 21",
-   "time": "20:33",
-   "price": 14.13,
+   "hour_ending": "11/27/2026 07",
+   "time": "06:36",
+   "price": 14.67,
    "volume_mw": 60.0
   },
   {
-   "hour_ending": "11/26/2026 21",
-   "time": "20:30",
+   "hour_ending": "11/27/2026 07",
+   "time": "06:35",
+   "price": 14.61,
+   "volume_mw": 75.0
+  },
+  {
+   "hour_ending": "11/27/2026 07",
+   "time": "06:27",
    "price": 14.52,
    "volume_mw": 50.0
   },
   {
-   "hour_ending": "11/26/2026 21",
-   "time": "20:27",
-   "price": 14.53,
+   "hour_ending": "11/27/2026 07",
+   "time": "06:14",
+   "price": 14.36,
+   "volume_mw": 75.0
+  },
+  {
+   "hour_ending": "11/27/2026 07",
+   "time": "06:12",
+   "price": 13.79,
    "volume_mw": 50.0
   },
   {
-   "hour_ending": "11/26/2026 21",
-   "time": "20:26",
-   "price": 14.63,
-   "volume_mw": 60.0
-  },
-  {
-   "hour_ending": "11/26/2026 21",
-   "time": "20:22",
-   "price": 14.89,
-   "volume_mw": 7.0
-  },
-  {
-   "hour_ending": "11/26/2026 21",
-   "time": "20:19",
-   "price": 15.22,
+   "hour_ending": "11/27/2026 07",
+   "time": "06:05",
+   "price": 11.87,
    "volume_mw": 50.0
   },
   {
-   "hour_ending": "11/26/2026 21",
-   "time": "20:15",
-   "price": 15.51,
-   "volume_mw": 60.0
-  },
-  {
-   "hour_ending": "11/26/2026 21",
-   "time": "20:13",
-   "price": 15.22,
+   "hour_ending": "11/27/2026 07",
+   "time": "06:00",
+   "price": 8.98,
    "volume_mw": 50.0
   },
   {
-   "hour_ending": "11/26/2026 21",
-   "time": "20:07",
-   "price": 15.74,
-   "volume_mw": 31.0
-  },
-  {
-   "hour_ending": "11/26/2026 21",
-   "time": "20:05",
-   "price": 16.01,
-   "volume_mw": 60.0
-  },
-  {
-   "hour_ending": "11/26/2026 21",
-   "time": "20:00",
-   "price": 16.89,
-   "volume_mw": 55.0
-  },
-  {
-   "hour_ending": "11/26/2026 20",
-   "time": "19:57",
-   "price": 16.89,
-   "volume_mw": 55.0
-  },
-  {
-   "hour_ending": "11/26/2026 20",
-   "time": "19:52",
-   "price": 23.24,
+   "hour_ending": "11/27/2026 06",
+   "time": "05:52",
+   "price": 0.04,
    "volume_mw": 50.0
   },
   {
-   "hour_ending": "11/26/2026 20",
-   "time": "19:48",
-   "price": 20.0,
-   "volume_mw": 14.0
-  },
-  {
-   "hour_ending": "11/26/2026 20",
-   "time": "19:47",
-   "price": 18.55,
-   "volume_mw": 40.0
-  },
-  {
-   "hour_ending": "11/26/2026 20",
-   "time": "19:46",
-   "price": 16.89,
-   "volume_mw": 55.0
-  },
-  {
-   "hour_ending": "11/26/2026 20",
-   "time": "19:43",
-   "price": 16.01,
-   "volume_mw": 60.0
-  },
-  {
-   "hour_ending": "11/26/2026 20",
-   "time": "19:39",
-   "price": 15.73,
-   "volume_mw": 31.0
-  },
-  {
-   "hour_ending": "11/26/2026 20",
-   "time": "19:25",
-   "price": 15.51,
-   "volume_mw": 60.0
-  },
-  {
-   "hour_ending": "11/26/2026 20",
-   "time": "19:21",
-   "price": 15.21,
+   "hour_ending": "11/27/2026 06",
+   "time": "05:37",
+   "price": 0.03,
    "volume_mw": 50.0
   },
   {
-   "hour_ending": "11/26/2026 20",
-   "time": "19:11",
-   "price": 14.63,
-   "volume_mw": 60.0
+   "hour_ending": "11/27/2026 06",
+   "time": "05:33",
+   "price": 0.02,
+   "volume_mw": 100.0
   },
   {
-   "hour_ending": "11/26/2026 20",
-   "time": "19:08",
-   "price": 15.51,
-   "volume_mw": 60.0
+   "hour_ending": "11/27/2026 06",
+   "time": "05:27",
+   "price": 0.01,
+   "volume_mw": 100.0
   },
   {
-   "hour_ending": "11/26/2026 20",
-   "time": "19:00",
-   "price": 15.73,
-   "volume_mw": 31.0
+   "hour_ending": "11/27/2026 06",
+   "time": "05:08",
+   "price": 0.0,
+   "volume_mw": 6.0
   },
   {
-   "hour_ending": "11/26/2026 19",
-   "time": "18:21",
-   "price": 15.73,
-   "volume_mw": 31.0
+   "hour_ending": "11/27/2026 06",
+   "time": "05:00",
+   "price": 0.0,
+   "volume_mw": 11.0
   },
   {
-   "hour_ending": "11/26/2026 19",
-   "time": "18:18",
-   "price": 16.01,
-   "volume_mw": 60.0
+   "hour_ending": "11/27/2026 05",
+   "time": "04:16",
+   "price": 0.0,
+   "volume_mw": 16.0
   },
   {
-   "hour_ending": "11/26/2026 19",
-   "time": "18:13",
-   "price": 17.07,
-   "volume_mw": 50.0
+   "hour_ending": "11/27/2026 05",
+   "time": "04:11",
+   "price": 0.0,
+   "volume_mw": 11.0
   },
   {
-   "hour_ending": "11/26/2026 19",
-   "time": "18:06",
-   "price": 17.39,
-   "volume_mw": 55.0
-  },
-  {
-   "hour_ending": "11/26/2026 19",
-   "time": "18:02",
-   "price": 18.55,
-   "volume_mw": 40.0
-  },
-  {
-   "hour_ending": "11/26/2026 19",
-   "time": "18:00",
-   "price": 19.75,
-   "volume_mw": 32.0
+   "hour_ending": "11/27/2026 05",
+   "time": "04:00",
+   "price": 0.0,
+   "volume_mw": 6.0
   }
  ],
  "hourly": [
-  {
-   "hour_ending": "11/19/2026 01",
-   "price": 28.91,
-   "avg30": 36.53,
-   "ail_mw": 10396.0
-  },
-  {
-   "hour_ending": "11/19/2026 02",
-   "price": 29.58,
-   "avg30": 36.55,
-   "ail_mw": 10298.0
-  },
-  {
-   "hour_ending": "11/19/2026 03",
-   "price": 30.31,
-   "avg30": 36.57,
-   "ail_mw": 10224.0
-  },
-  {
-   "hour_ending": "11/19/2026 04",
-   "price": 30.08,
-   "avg30": 36.58,
-   "ail_mw": 10230.0
-  },
-  {
-   "hour_ending": "11/19/2026 05",
-   "price": 28.78,
-   "avg30": 36.58,
-   "ail_mw": 10293.0
-  },
-  {
-   "hour_ending": "11/19/2026 06",
-   "price": 28.85,
-   "avg30": 36.57,
-   "ail_mw": 10410.0
-  },
-  {
-   "hour_ending": "11/19/2026 07",
-   "price": 39.66,
-   "avg30": 36.47,
-   "ail_mw": 10877.0
-  },
-  {
-   "hour_ending": "11/19/2026 08",
-   "price": 55.56,
-   "avg30": 36.44,
-   "ail_mw": 11335.0
-  },
-  {
-   "hour_ending": "11/19/2026 09",
-   "price": 62.94,
-   "avg30": 36.38,
-   "ail_mw": 11465.0
-  },
-  {
-   "hour_ending": "11/19/2026 10",
-   "price": 28.96,
-   "avg30": 36.38,
-   "ail_mw": 11453.0
-  },
-  {
-   "hour_ending": "11/19/2026 11",
-   "price": 26.72,
-   "avg30": 36.34,
-   "ail_mw": 11499.0
-  },
-  {
-   "hour_ending": "11/19/2026 12",
-   "price": 23.85,
-   "avg30": 36.33,
-   "ail_mw": 11568.0
-  },
-  {
-   "hour_ending": "11/19/2026 13",
-   "price": 25.69,
-   "avg30": 36.32,
-   "ail_mw": 11499.0
-  },
-  {
-   "hour_ending": "11/19/2026 14",
-   "price": 27.99,
-   "avg30": 36.31,
-   "ail_mw": 11455.0
-  },
-  {
-   "hour_ending": "11/19/2026 15",
-   "price": 28.76,
-   "avg30": 36.31,
-   "ail_mw": 11417.0
-  },
-  {
-   "hour_ending": "11/19/2026 16",
-   "price": 29.11,
-   "avg30": 36.31,
-   "ail_mw": 11405.0
-  },
-  {
-   "hour_ending": "11/19/2026 17",
-   "price": 28.73,
-   "avg30": 36.32,
-   "ail_mw": 11456.0
-  },
-  {
-   "hour_ending": "11/19/2026 18",
-   "price": 90.57,
-   "avg30": 36.26,
-   "ail_mw": 11493.0
-  },
-  {
-   "hour_ending": "11/19/2026 19",
-   "price": 167.44,
-   "avg30": 36.44,
-   "ail_mw": 11504.0
-  },
-  {
-   "hour_ending": "11/19/2026 20",
-   "price": 71.37,
-   "avg30": 36.49,
-   "ail_mw": 11381.0
-  },
-  {
-   "hour_ending": "11/19/2026 21",
-   "price": 55.0,
-   "avg30": 36.54,
-   "ail_mw": 11299.0
-  },
-  {
-   "hour_ending": "11/19/2026 22",
-   "price": 32.91,
-   "avg30": 36.56,
-   "ail_mw": 11193.0
-  },
-  {
-   "hour_ending": "11/19/2026 23",
-   "price": 31.52,
-   "avg30": 36.59,
-   "ail_mw": 10987.0
-  },
-  {
-   "hour_ending": "11/19/2026 24",
-   "price": 28.45,
-   "avg30": 36.61,
-   "ail_mw": 10709.0
-  },
   {
    "hour_ending": "11/20/2026 01",
    "price": 32.08,
@@ -1292,6 +1016,150 @@
    "price": 10.25,
    "avg30": 36.3,
    "ail_mw": 10683.0
+  },
+  {
+   "hour_ending": "11/26/2026 01",
+   "price": 10.26,
+   "avg30": 36.27,
+   "ail_mw": 10494.0
+  },
+  {
+   "hour_ending": "11/26/2026 02",
+   "price": 10.55,
+   "avg30": 36.25,
+   "ail_mw": 10318.0
+  },
+  {
+   "hour_ending": "11/26/2026 03",
+   "price": 6.56,
+   "avg30": 36.22,
+   "ail_mw": 10261.0
+  },
+  {
+   "hour_ending": "11/26/2026 04",
+   "price": 11.66,
+   "avg30": 36.19,
+   "ail_mw": 10203.0
+  },
+  {
+   "hour_ending": "11/26/2026 05",
+   "price": 14.11,
+   "avg30": 36.17,
+   "ail_mw": 10303.0
+  },
+  {
+   "hour_ending": "11/26/2026 06",
+   "price": 15.45,
+   "avg30": 36.12,
+   "ail_mw": 10477.0
+  },
+  {
+   "hour_ending": "11/26/2026 07",
+   "price": 16.85,
+   "avg30": 35.97,
+   "ail_mw": 10899.0
+  },
+  {
+   "hour_ending": "11/26/2026 08",
+   "price": 19.23,
+   "avg30": 35.67,
+   "ail_mw": 11445.0
+  },
+  {
+   "hour_ending": "11/26/2026 09",
+   "price": 18.88,
+   "avg30": 35.54,
+   "ail_mw": 11689.0
+  },
+  {
+   "hour_ending": "11/26/2026 10",
+   "price": 18.99,
+   "avg30": 35.49,
+   "ail_mw": 11735.0
+  },
+  {
+   "hour_ending": "11/26/2026 11",
+   "price": 19.49,
+   "avg30": 35.47,
+   "ail_mw": 11759.0
+  },
+  {
+   "hour_ending": "11/26/2026 12",
+   "price": 16.17,
+   "avg30": 35.43,
+   "ail_mw": 11728.0
+  },
+  {
+   "hour_ending": "11/26/2026 13",
+   "price": 14.68,
+   "avg30": 35.38,
+   "ail_mw": 11638.0
+  },
+  {
+   "hour_ending": "11/26/2026 14",
+   "price": 14.53,
+   "avg30": 35.34,
+   "ail_mw": 11682.0
+  },
+  {
+   "hour_ending": "11/26/2026 15",
+   "price": 14.28,
+   "avg30": 35.31,
+   "ail_mw": 11700.0
+  },
+  {
+   "hour_ending": "11/26/2026 16",
+   "price": 11.44,
+   "avg30": 35.29,
+   "ail_mw": 11713.0
+  },
+  {
+   "hour_ending": "11/26/2026 17",
+   "price": 13.1,
+   "avg30": 35.26,
+   "ail_mw": 11743.0
+  },
+  {
+   "hour_ending": "11/26/2026 18",
+   "price": 17.11,
+   "avg30": 35.22,
+   "ail_mw": 11884.0
+  },
+  {
+   "hour_ending": "11/26/2026 19",
+   "price": 16.37,
+   "avg30": 35.19,
+   "ail_mw": 11919.0
+  },
+  {
+   "hour_ending": "11/26/2026 20",
+   "price": 16.5,
+   "avg30": 35.17,
+   "ail_mw": 11795.0
+  },
+  {
+   "hour_ending": "11/26/2026 21",
+   "price": 14.67,
+   "avg30": 35.13,
+   "ail_mw": 11652.0
+  },
+  {
+   "hour_ending": "11/26/2026 22",
+   "price": 12.34,
+   "avg30": 34.97,
+   "ail_mw": 11417.0
+  },
+  {
+   "hour_ending": "11/26/2026 23",
+   "price": 0.01,
+   "avg30": 34.86,
+   "ail_mw": 11108.0
+  },
+  {
+   "hour_ending": "11/26/2026 24",
+   "price": 0.01,
+   "avg30": 34.82,
+   "ail_mw": 10879.0
   }
  ]
 }
